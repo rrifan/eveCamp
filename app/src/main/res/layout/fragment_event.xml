@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".EventFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imgEvent4"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/event4"
+             />
+        <TextView
+            android:id="@+id/txtEvent4"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018 Digital RoadMap"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/text"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/event3"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tech Talk : Seminar on integrating Technology"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/text"/>
+
+        <ImageButton
+            android:id="@+id/img_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_round"
+            android:src="@drawable/ic_add"/>
+    </LinearLayout>
+
+
+</ScrollView>

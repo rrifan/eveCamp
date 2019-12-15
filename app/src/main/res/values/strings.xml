@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EveCamp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="deskripsi">SEMINAR KEWIRAUSAHAAN 1441 H hadir lagi guyss!! Yuk buruan daftar dengan klik tombol register 
+    dibawah ini! Jangan sampe ketinggalan ya! Untuk info selengkapnya kamu bisa hubungi contact person yang tertera di poster. 
+    See you there!</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="notif1">Selamat! Kamu berhasil mendaftar SEMINAR KEWIRAUSAHAAN 1441 H</string>
+</resources>
