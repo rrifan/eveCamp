@@ -19,19 +19,19 @@
             android:layout_marginBottom="40dp"
             android:layout_gravity="center_horizontal" />
 
-            <TextView
-                android:textStyle="bold"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text=" Nama Lengkap"/>
+<!--            <TextView-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=" Nama Lengkap"/>-->
 
-            <EditText
-                android:id="@+id/input_name"
-                android:drawableLeft="@drawable/ic_person"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint=" Name" />
+<!--            <EditText-->
+<!--                android:id="@+id/input_name"-->
+<!--                android:drawableLeft="@drawable/ic_person"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:inputType="text"-->
+<!--                android:hint=" Name" />-->
         <TextView
             android:textStyle="bold"
             android:layout_marginTop="10dp"
@@ -71,13 +71,13 @@
 
             <EditText
                 android:drawableLeft="@drawable/ic_lock"
-                android:id="@+id/ulangPassword"
+                android:id="@+id/input_password2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:hint=" Ulangi Password"/>
 
-        <androidx.appcompat.widget.AppCompatButton
+        <Button
             android:id="@+id/btn_signup"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
